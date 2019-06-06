@@ -8,6 +8,6 @@ class School
   end
   
   def add_student(name, grade)
-    @roster = key => name, value => grade
+    @roster = {key => name, value => grade}
   end
 end   

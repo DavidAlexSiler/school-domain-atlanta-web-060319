@@ -18,4 +18,5 @@ class School
   
   def grade
     @roster[grade]
+  end
 end   

@@ -19,5 +19,5 @@ class School
   def grade
     @roster[grade]
   end
-  binding.pry
+  
 end   

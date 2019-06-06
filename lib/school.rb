@@ -6,4 +6,8 @@ class School
     @name = name 
     @roster = {}
   end
+  
+  def add_student(name, grade)
+    @roster = key => name, value => grade
+  end
 end   
